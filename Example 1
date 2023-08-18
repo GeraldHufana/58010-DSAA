@@ -1,0 +1,71 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMipwmfc9FcSxfLEcPBRyPw",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/GeraldHufana/58010-DSAA/blob/main/Example%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "id": "AdLE20Q3DuPk"
+      },
+      "outputs": [],
+      "source": [
+        "class rectangle:\n",
+        "  def __init__(self,length, width):\n",
+        "    self.length = length\n",
+        "    self.width = width\n",
+        "def rectangle_area(length, width):\n",
+        "  area = length * width\n",
+        "  return area\n",
+        "\n",
+        "  length = float(input(\"enter the length of the reactangle: \"))\n",
+        "  width = float(input(\"enter the width of the reactnagle\"))\n",
+        "\n",
+        "  area = rectangle_area(length, width)\n",
+        "\n",
+        "  print(\"the area of the reactangle is: \" , area)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class Circle:\n",
+        "  def __init__(self, radius):\n",
+        "    self.radius = radius\n",
+        "    radius = float(\"Enter the radius of the circle:\")\n",
+        "    pi = 3.14\n",
+        "    area = pi*radius**2\n",
+        "    print(\"the area of the circle is: \", area  )\n"
+      ],
+      "metadata": {
+        "id": "9t7lP-DrHab3"
+      },
+      "execution_count": 8,
+      "outputs": []
+    }
+  ]
+}
