@@ -1,0 +1,186 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN2Y66hxB+qFfVbpTHXVeW2",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/GeraldHufana/58010-DSAA/blob/main/Activity%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 29,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QT6CIwlx4cwb",
+        "outputId": "8f775356-7b3f-4e61-a0ae-054436ceebf6"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n",
+            "7\n",
+            "8\n",
+            "9\n",
+            "10\n",
+            "the sum of the arrays 55\n"
+          ]
+        }
+      ],
+      "source": [
+        "int = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}\n",
+        "for x in int:\n",
+        "  print(x)\n",
+        "ans = sum(int)\n",
+        "1\n",
+        "2\n",
+        "3\n",
+        "4\n",
+        "5\n",
+        "6\n",
+        "7\n",
+        "8\n",
+        "9\n",
+        "10\n",
+        "print(\"the sum of the arrays\", ans)\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n",
+        "num[2] = \"2003\"\n",
+        "print(num)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bTjWA3gp6-ue",
+        "outputId": "5d65e13f-1254-4470-e86f-721f5488d3dd"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, '2003', 4, 5, 6, 7, 8, 9, 10]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n",
+        "num.append(\"13\")\n",
+        "print(num)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZoCCWyqT7enT",
+        "outputId": "3f19de96-2f73-454d-e25b-c7cbcdf8e950"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, '13']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = [5, 4, 3, 2, 1,]\n",
+        "num.sort()\n",
+        "print(\"ascending orders\", num)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FPFSFXpY8Xg0",
+        "outputId": "6ed22bed-b96f-43fe-fe9d-4d6a33cddea0"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ascending orders [1, 2, 3, 4, 5]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = [5, 4, 3, 2, 1,]\n",
+        "x = len(num)\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nNHIzDwK-Yn2",
+        "outputId": "22a528dd-5414-40df-d6f1-39c98dc47598"
+      },
+      "execution_count": 23,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
