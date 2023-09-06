@@ -1,0 +1,204 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOp71/4EUdk4fsLyOxyAqGw",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/GeraldHufana/58010-DSAA/blob/main/sample%20ko%20lang%20po%20ito%20maam%20wag%20po%20buksan%20(thank%20you%20po%20%7D\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kdpgYmB721Lf",
+        "outputId": "991830b5-836d-4f91-db57-dec5555b20ff"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n",
+            "7\n",
+            "8\n",
+            "9\n",
+            "10\n",
+            "total sum of the integers is  55\n"
+          ]
+        }
+      ],
+      "source": [
+        "int = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n",
+        "for x in int:\n",
+        "  print(x)\n",
+        "ans = sum(int)\n",
+        "print(\"total sum of the integers is \" , ans )"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "int = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n",
+        "ans = sum(int)\n",
+        "print(\"total sum of the integers is \" , ans )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "98UIqjlG5Mh0",
+        "outputId": "7d70b273-a3fd-4a8a-e8e2-b6952a99d83d"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "total sum of the integers is  55\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "int = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n",
+        "int.append(13)\n",
+        "print (\"Added arrays\" , int)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WQVRUh0A7UOC",
+        "outputId": "e8d8cb92-48a6-4471-b725-588579a192a9"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Added arrays [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "int = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n",
+        "int.insert(3, 12)\n",
+        "print(int)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_qBwaNQj8-Fc",
+        "outputId": "7641c3da-4063-4d8a-ab63-60a8bfd047d1"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, 3, 12, 4, 5, 6, 7, 8, 9, 10]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "int = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]\n",
+        "int.sort()\n",
+        "print(\"arrange in ascending :) \", int)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rqPMtqvR-MrU",
+        "outputId": "9359f6d2-65e9-475e-f1a1-6967bcedf4a2"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "arrange in ascending :)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "int = [1, 6, 8, 7, 9, 4, 5, 3, 2, 10]\n",
+        "for x in int:\n",
+        "  print(x)\n",
+        "int.sort(reverse=True)\n",
+        "print(\"arrange in descending orders :()\" , int )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Iod3F1ga_DPr",
+        "outputId": "70ccbf86-757a-4dd7-f5db-943cfc8aac50"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "6\n",
+            "8\n",
+            "7\n",
+            "9\n",
+            "4\n",
+            "5\n",
+            "3\n",
+            "2\n",
+            "10\n",
+            "arrange in descending orders :() [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
