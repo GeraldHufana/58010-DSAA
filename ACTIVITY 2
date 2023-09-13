@@ -1,0 +1,94 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNb/y/NM/AHK3/5a12zoi/e",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/GeraldHufana/58010-DSAA/blob/main/ACTIVITY%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Write a Python program to create a singly linked list of prime numbers less than 20. By iterating through the list, display all the prime numbers, the head, and the tail of the list. (using Google Colab)\n",
+        "# Save your source codes to GitHub\n",
+        "# Name it as Activity 2 and copy the link of your GitHub repository DSA 58010 here\n",
+        "\n",
+        "class Node:\n",
+        "    def __init__(self, data):\n",
+        "        self.data = data\n",
+        "        self.next = None\n",
+        "\n",
+        "class LinkedList:\n",
+        "    def __init__(self):\n",
+        "        self.head = None\n",
+        "        self.tail = None\n",
+        "\n",
+        "    def node(self, data):\n",
+        "        node = Node(data)\n",
+        "        if self.head is None:\n",
+        "            self.head = node\n",
+        "            self.tail = node\n",
+        "        else:\n",
+        "            self.tail.next = node\n",
+        "            self.tail = node\n",
+        "\n",
+        "    def display(self):\n",
+        "        current = self.head\n",
+        "        while current:\n",
+        "            print(current.data, end=\" \")\n",
+        "            current = current.next\n",
+        "\n",
+        "PrimeNumbers = [2, 3, 5, 7, 11, 13, 17, 19]\n",
+        "\n",
+        "prime_list = LinkedList()\n",
+        "for num in PrimeNumbers:\n",
+        "    prime_list.node(num)\n",
+        "\n",
+        "print(\"Prime Numbers less than 20:\", PrimeNumbers)\n",
+        "\n",
+        "print(\"Head of the List:\", prime_list.head.data)\n",
+        "\n",
+        "print(\"Tail of the List:\", prime_list.tail.data)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ELpbRAyGEVZI",
+        "outputId": "4d628357-a1aa-4d51-93ee-0009b6144b8c"
+      },
+      "execution_count": 30,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Prime Numbers less than 20: [2, 3, 5, 7, 11, 13, 17, 19]\n",
+            "Head of the List: 2\n",
+            "Tail of the List: 19\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
