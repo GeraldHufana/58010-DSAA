@@ -1,0 +1,112 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPUrgxYPs+5GQGMxigAmLcj",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/GeraldHufana/58010-DSAA/blob/main/Prelim%20Exam\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 32,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8ZQKpNbxWsad",
+        "outputId": "16d96236-6aa2-4b82-f99c-b493450ef158"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "26\n",
+            "the sum of the test scores 397\n",
+            "49\n",
+            "the sum of the test scores 397\n",
+            "98\n",
+            "the sum of the test scores 397\n",
+            "87\n",
+            "the sum of the test scores 397\n",
+            "62\n",
+            "the sum of the test scores 397\n",
+            "75\n",
+            "the sum of the test scores 397\n"
+          ]
+        }
+      ],
+      "source": [
+        "#Open your Python (Pycharm or Colab) or Dev C++ to create the source code for adding the test scores 26, 49, 98, 87, 62, 75 (30 points)\n",
+        "#Create a program to sort the test scores in ascending order (20 points)\n",
+        "#Draw the appropriate flowchart and save it as a pdf (format: Prelim.pdf) that should be uploaded here. (20 points)\n",
+        "#Save your source code as Prelim Exam (Prelim Exam.ipynb/ Prelim Exam.py) in your GitHub\n",
+        "#Send your GitHub link here before submitting.\n",
+        "\n",
+        "class Scores:\n",
+        "  int = [26, 49, 98, 87, 62, 75]\n",
+        "  for x in int:\n",
+        "    print(x)\n",
+        "    ans = sum(int)\n",
+        "    print(\"the sum of the test scores\", ans)\n",
+        ""
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "vMbyq_xWgazX"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class Scores:\n",
+        "\n",
+        "  int = [26, 49, 98, 87, 62, 75]\n",
+        "  int.sort()\n",
+        "  print(\"arranging in ascending orders\", int)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XcK7chxxZzg9",
+        "outputId": "c6836614-e2da-4582-8f14-ac689e19db56"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "arranging in ascending orders [26, 49, 62, 75, 87, 98]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
